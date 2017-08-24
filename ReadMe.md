@@ -23,3 +23,15 @@ Each line represents a day of Fitbit data that is gathered. The total number day
 You are able to select areas within the dimensions and the lines that pass through that specific areawould be put into focus and other would be faded as context. This would allow the user to break down the visualisation to as many small pieces the user wants and making the data more easy to be understood. 
 
 ![chrome_2017-08-24_13-38-06](https://user-images.githubusercontent.com/15980314/29666734-7bb6594a-88d1-11e7-9841-2b0415495bdb.png)
+
+### Tree Maps
+
+Each square represents the sum of movement ( the difference between coordinate’s readings) gathered at that hour from the Kinect. The larger and the closer to red the square is the higher the amount of movement taken place in that hour. As you can see the data that I gathered that the most movement has taken place at 11:00 am of 30/04/2017 and largest period of the movement takes place between 16:00 and 21:00 of 29/04/2017. 
+
+![chrome_2017-08-24_13-43-27](https://user-images.githubusercontent.com/15980314/29666945-5f26a54a-88d2-11e7-9fc8-8e7186bd22bb.png)
+
+This visualisation was created using Tableau and you are able to focus on a given area and it would return a sum of movement that given area. In addition, if you hover over one specific square it would give you the numerical value if the comparison between other squares is not detailed enough for you.
+
+![chrome_2017-08-24_13-45-31](https://user-images.githubusercontent.com/15980314/29666985-83f13840-88d2-11e7-8013-6c3a2dfcb3a5.png)
+
+
