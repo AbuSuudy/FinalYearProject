@@ -1,3 +1,4 @@
+## Introduction
 The purpose of this project is to place the system into a care home where care home workers could decide if the general populous is having enough exercise. This is because if there are many people living in one location it can be hard to track if people are having the right amount of exercise. I've developed code for the Kinect and Arduino to gather motion data. Also created interactive visualisation using D3.js and embedded it to an ASP.NET website using the MVC framework.
 
 ## Using the Kinect 
@@ -14,7 +15,7 @@ This site allows staff to create an announcement and can comment underneath the 
 
 ## Visualisations 
 
-### Parrallel Coordinates 
+### Parallel Coordinates 
 Each line represents a day of Fitbit data that is gathered. The total number days represented in this visualisation is 366 days. At first glance, it does not seem to show too much information due to the overlapping of strokes makes seeing trends and connection difficult.
 
 ![chrome_2017-08-24_13-33-08](https://user-images.githubusercontent.com/15980314/29666653-1bfe3248-88d1-11e7-9849-b623c2c10898.png)
@@ -34,7 +35,7 @@ This visualisation was created using Tableau and you are able to focus on a give
 ![chrome_2017-08-24_13-45-31](https://user-images.githubusercontent.com/15980314/29666985-83f13840-88d2-11e7-8013-6c3a2dfcb3a5.png)
 
 ### Coloured Table
-This is a coloured table and colour is determined by the amount of movement taking place int thathour the more movement that takes place the closer to red and the inverse it would be closer to blue. This type of visualisation is best for when you are trying to compare different days to each other like how does the movement at 11 am compared to the previous day. In this case, a lot more movement at 11 am on the 30th takes places compared to the 11 am on the 29th. This size of this table would increase rapidly to prevent this I could only display one week of data for the visualisation at a time. The data from this visualisation is gathered from the Kinect.
+This is a coloured table and colour is determined by the amount of movement taking place in that hour the more movement that takes place the closer to red and the inverse it would be closer to blue. This data is gathered from the kinect. This type of visualisation is best for when you are trying to compare different days to each other like how does the movement at 11 am compared to the previous day. In this case, a lot more movement at 11 am on the 30th takes places compared to the 11 am on the 29th. This size of this table would increase rapidly to prevent this I could only display one week of data for the visualisation at a time. The data from this visualisation is gathered from the Kinect.
 
 ![chrome_2017-08-24_13-50-36](https://user-images.githubusercontent.com/15980314/29667143-3da2afbc-88d3-11e7-9f4e-131a598896fc.png)
 
@@ -43,7 +44,7 @@ Similar to the tree map there is also has the interactive aspect where you could
 ![chrome_2017-08-24_13-52-05](https://user-images.githubusercontent.com/15980314/29667212-738d30b6-88d3-11e7-969b-91e741e85a68.png)
 
 ### Packed Bubble 
-This is pretty much a treemap as it’s also another hierarchal data visualisation. It is not as space efficient as a treemap but I would say the hierarchy of the data is more apparent. This may make the visualisation easier to understand. The data shows how much movement is detected in each hour of the day. The larger the white circles the larger the amount of movement taking place in that hour. 
+This is pretty much the same as treemap as it’s also another hierarchal data visualisation. It is not as space efficient as a treemap but I would say the hierarchy of the data is more apparent. This may make the visualisation easier to understand. The data shows how much movement is detected in each hour of the day from the Arduino. The larger the white circles the larger the amount of movement taking place in that hour. 
 
 ![chrome_2017-08-24_13-56-04](https://user-images.githubusercontent.com/15980314/29667358-fb2e3fba-88d3-11e7-99fe-f645e9cd8a09.png)
 
