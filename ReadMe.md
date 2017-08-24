@@ -15,8 +15,11 @@ This site allows staff to create an announcement and can comment underneath the 
 ## Visualisations 
 
 ### Parrallel Coordinates 
+Each line represents a day of Fitbit data that is gathered. The total number days represented in this visualisation is 366 days. At first glance, it does not seem to show too much information due to the overlapping of strokes makes seeing trends and connection difficult.
 
 ![chrome_2017-08-24_13-33-08](https://user-images.githubusercontent.com/15980314/29666653-1bfe3248-88d1-11e7-9849-b623c2c10898.png)
 
 
-Each line represents a day of Fitbit data that is gathered. The total number days represented in this visualisation is 366 days. At first glance, it does not seem to show too much information due to the overlapping of strokes makes seeing trends and connection difficult.
+You are able to select areas within the dimensions and the lines that pass through that specific areawould be put into focus and other would be faded as context. This would allow the user to break down the visualisation to as many small pieces the user wants and making the data more easy to be understood. 
+
+![chrome_2017-08-24_13-38-06](https://user-images.githubusercontent.com/15980314/29666734-7bb6594a-88d1-11e7-9841-2b0415495bdb.png)
