@@ -1,3 +1,11 @@
+## content
+
+ArduinoMotionDataLogger -Contains Arduino Sketch
+BatchFiles	- Restart program so data could be written to a different time stamp file. Time is selected using Task Scheduler.
+Blackboard	- Contains ASP.NET Site
+KinectData - Collect coordinate data from kinect
+DistanceData	- Calculates distance between kinect coordinate
+
 ## Introduction
 The purpose of this project is to place the system into a care home where care home workers could decide if the general populous is having enough exercise. This is because if there are many people living in one location it can be hard to track if people are having the right amount of exercise. I've developed code for the Kinect and Arduino to gather motion data. Also created interactive visualisation using D3.js and embedded it to an ASP.NET website using the MVC framework.
 
