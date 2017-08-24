@@ -15,4 +15,8 @@ This site allows staff to create an announcement and can comment underneath the 
 ## Visualisations 
 
 ### Parrallel Coordinates 
+
+![chrome_2017-08-24_13-33-08](https://user-images.githubusercontent.com/15980314/29666653-1bfe3248-88d1-11e7-9849-b623c2c10898.png)
+
+
 Each line represents a day of Fitbit data that is gathered. The total number days represented in this visualisation is 366 days. At first glance, it does not seem to show too much information due to the overlapping of strokes makes seeing trends and connection difficult.
