@@ -1,7 +1,7 @@
 The purpose of this project is to place the system into a care home where care home workers could decide if the general populous is having enough exercise. This is because if there are many people living in one location it can be hard to track if people are having the right amount of exercise. I've developed code for the Kinect and Arduino to gather motion data. Also created interactive visualisation using D3.js and embedded it to an ASP.NET website using the MVC framework.
 
 ## Using the Kinect 
-I take a reading of the X, Y, Z position of the head each second and place this into a CSV file and another C# file reads each coordinate in the file and calculates the distance of each coordinate. This would quantify the amount the movement taking places in given area.
+I take a reading of the X, Y, Z position of the head each second and place this into a CSV file and another C# file reads each coordinate in the file and calculates the distance between each coordinate. This would quantify the amount the movement taking places in given area.
 
 ## Using the Arduino
 Using a PIR sensor to detect motion by using Infrared radiation. The date and time when motion is detected would be written to a CSV file on an SD card.
