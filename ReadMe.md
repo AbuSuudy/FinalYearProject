@@ -1,6 +1,7 @@
 ## Folder Content
 
-ArduinoMotionDataLogger -Contains Arduino Sketch
+**ArduinoMotionDataLogger** -Contains Arduino Sketch
+
 **BatchFiles**	- Restart program so data could be written to a different time stamp file. Time is selected using Task Scheduler.
 
 **Blackboard**	- Contains ASP.NET Site
