@@ -8,6 +8,6 @@ Using a PIR sensor to detect motion by using Infrared radiation. The date and ti
 
 I have also used a years worth of public fitbit data that I could create visulaisation from so I could see how the system would look when it's put in practice.
 
+The purpose of this project is to place the system into a care home where care home workers could decide if the general populous is having enough exercise. This is because if there are many people living in one location it can be hard to track if people are having the right amount of exercise.
 
-The purpose of this project is to place the system into a care home where care home
-workers could decide if the general populous is having enough exercise.
+##ASP.NET
