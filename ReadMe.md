@@ -2,8 +2,11 @@
 
 ArduinoMotionDataLogger -Contains Arduino Sketch
 **BatchFiles**	- Restart program so data could be written to a different time stamp file. Time is selected using Task Scheduler.
+
 **Blackboard**	- Contains ASP.NET Site
+
 **KinectData** - Collect coordinate data from kinect
+
 **DistanceData**	- Calculates distance between kinect coordinate
 
 ## Introduction
