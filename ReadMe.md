@@ -6,7 +6,13 @@ I take a reading of the X, Y, Z position of the head each second and place this 
 ## Using the Arduino
 Using a PIR sensor to detect motion by using Infrared radiation. The date and time when motion is detected would be written to a CSV file on an SD card.
 
-I have also used a years’ worth of public Fitbit data that I could create visualisation from so I could see how the system would look when it's put in practice.
+## Using the FitBit
+I have also used a years’ worth of public Fitbit data that I could create visualisation from so I could see how the system would look when it's put in practice. A FitBit would be used to gather data specific to that person instead of the given area like the Kinect and Arduino.
 
 ## ASP.NET
 This site allows staff to create an announcement and can comment underneath the announcement in the comment section. The resident in the care home could only comment underneath and announcement once it has been created. The purpose of this to start a dialogue between the staff and the residents. I used AJAX to update the comment section without needing to refresh the page to see the new comments.
+
+## Visualisations 
+
+### Parrallel Coordinates 
+Each line represents a day of Fitbit data that is gathered. The total number days represented in this visualisation is 366 days. At first glance, it does not seem to show too much information due to the overlapping of strokes makes seeing trends and connection difficult.
