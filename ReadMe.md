@@ -25,7 +25,6 @@ You are able to select areas within the dimensions and the lines that pass throu
 ![chrome_2017-08-24_13-38-06](https://user-images.githubusercontent.com/15980314/29666734-7bb6594a-88d1-11e7-9841-2b0415495bdb.png)
 
 ### Tree Maps
-
 Each square represents the sum of movement ( the difference between coordinate’s readings) gathered at that hour from the Kinect. The larger and the closer to red the square is the higher the amount of movement taken place in that hour. As you can see the data that I gathered that the most movement has taken place at 11:00 am of 30/04/2017 and largest period of the movement takes place between 16:00 and 21:00 of 29/04/2017. 
 
 ![chrome_2017-08-24_13-43-27](https://user-images.githubusercontent.com/15980314/29666945-5f26a54a-88d2-11e7-9fc8-8e7186bd22bb.png)
@@ -34,4 +33,20 @@ This visualisation was created using Tableau and you are able to focus on a give
 
 ![chrome_2017-08-24_13-45-31](https://user-images.githubusercontent.com/15980314/29666985-83f13840-88d2-11e7-8013-6c3a2dfcb3a5.png)
 
+### Coloured Table
+This is a coloured table and colour is determined by the amount of movement taking place int thathour the more movement that takes place the closer to red and the inverse it would be closer to blue. This type of visualisation is best for when you are trying to compare different days to each other like how does the movement at 11 am compared to the previous day. In this case, a lot more movement at 11 am on the 30th takes places compared to the 11 am on the 29th. This size of this table would increase rapidly to prevent this I could only display one week of data for the visualisation at a time. The data from this visualisation is gathered from the Kinect.
 
+![chrome_2017-08-24_13-50-36](https://user-images.githubusercontent.com/15980314/29667143-3da2afbc-88d3-11e7-9f4e-131a598896fc.png)
+
+Similar to the tree map there is also has the interactive aspect where you could select multiple areas to gather the sum also get the sum of a specific block, but the second interaction is not useful because the values are placed on the shape.
+
+![chrome_2017-08-24_13-52-05](https://user-images.githubusercontent.com/15980314/29667212-738d30b6-88d3-11e7-969b-91e741e85a68.png)
+
+### Packed Bubble 
+This is pretty much a treemap as it’s also another hierarchal data visualisation. It is not as space efficient as a treemap but I would say the hierarchy of the data is more apparent. This may make the visualisation easier to understand. The data shows how much movement is detected in each hour of the day. The larger the white circles the larger the amount of movement taking place in that hour. 
+
+![chrome_2017-08-24_13-56-04](https://user-images.githubusercontent.com/15980314/29667358-fb2e3fba-88d3-11e7-99fe-f645e9cd8a09.png)
+
+In addition, when you click on a node it would zoom and show the inner hierarchy. In addition, within each day, there would be hours where no movement is detected usually in the early hours in the morning and if I left it as zero, it would not appear on the graph. I set all the hours that I to have 0 movements to a size 10 circle and add this to an inner hierarchy called zero. So I’m able to view all the hour no movement takes place In one node instead of it all not appearing.
+
+![chrome_2017-08-24_13-56-56](https://user-images.githubusercontent.com/15980314/29667383-1c2c0328-88d4-11e7-9c98-647430f2bc5e.png)
